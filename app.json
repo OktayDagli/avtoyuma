@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Zimex Auto Wash",
+    "slug": "avtoyuma",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f172a"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zimex.avtoyuma",
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Yaxınlıqdakı Zimex avtoyuma filiallarını xəritədə göstərmək üçün məkana icazə tələb olunur.",
+        "NSCameraUsageDescription": "Canlı yuma boksuna baxış keçirmək və ya QR kodu skan etmək üçün kameraya icazə lazımdır."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f172a"
+      },
+      "package": "com.zimex.avtoyuma"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
